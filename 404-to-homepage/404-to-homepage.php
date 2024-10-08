@@ -18,6 +18,6 @@ add_action('template_redirect', function() {
 	global $wp_query;
 	if ($wp_query->is_404 === false) return;
 	
-	if (wp_redirect(home_url('/'), 301)) die;
+	if (wp_safe_redirect(home_url('/'), 301)) die;
 	
 }, PHP_INT_MAX);
