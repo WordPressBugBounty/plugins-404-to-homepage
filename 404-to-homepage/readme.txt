@@ -1,7 +1,7 @@
 === Redirect 404 to Homepage ===
 Contributors: pipdig
 Requires at least: 4.8
-Tested up to: 6.9
+Tested up to: 7.1
 Requires PHP: 5.6
 Stable tag: trunk
 License: GPLv2 or later
@@ -19,8 +19,8 @@ We designed this plugin to be **very lightweight**. There are no options or sett
 
 - Works with any theme.
 - Works on any host.
-- Super lightweight (will not slow down your site).
-- No logs (fully GDPR compliant).
+- Super lightweight + fast.
+- No logs (GDPR compliant).
 - Helps with SEO.
 - **100% free** with nothing locked behind a "pro" version.
 
@@ -47,6 +47,9 @@ Try going to any link on your site which does not exist. e.g. www.example.com/th
 - That's all! If you try accessing a page which does not exist, you will be redirected to the homepage.
 
 == Changelog ==
+
+= 1.1 =
+* Version bump.
 
 = 1.0 =
 * Initial release.
